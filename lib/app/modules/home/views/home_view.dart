@@ -205,7 +205,7 @@ class HomeView extends GetView<HomeController> {
                                               ),
                                               5.horizontalSpace,
                                               Text(
-                                                "${90} Menit",
+                                                "${snapshot.data?[index].waktuPembuatan.toString()} minutes",
                                                 style: TextStyle(
                                                   fontSize:
                                                       ScreenUtil().setSp(12),
