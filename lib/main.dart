@@ -16,6 +16,7 @@ void main() async {
     appId: "1:203030177165:android:40504b50d75caf0b6dc9c4",
     messagingSenderId: "203030177165",
     projectId: "chapter7-bde41",
+    storageBucket: "gs://chapter7-bde41.appspot.com",
   )); // firebase_core
 
   await GetStorage.init(); // get_storage
